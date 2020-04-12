@@ -1,0 +1,33 @@
+/*col basics*/
+.column2, .column1 {
+  color: #ffca24;
+  background-color: #333;
+  border: 0.25rem solid #ffca24;
+  text-align: center;
+  margin-top: 2%;
+  font-size: larger;
+  padding-top: initial;
+}
+
+#columns {
+  margin-top: 20%;
+}
+
+.column1 {
+  height: 5rem;
+}
+
+.column2 {
+  height: 3rem;
+}
+
+.part3, .part2, .part1 {
+  margin: auto;
+}
+
+.part1 {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=style.css.map */

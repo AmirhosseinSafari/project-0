@@ -1,0 +1,47 @@
+$white: #fff;
+$gold: #ffca24;
+$dark-gray: #333;
+
+/*col basics*/
+
+%column {
+  color: $gold;
+  background-color: $dark-gray;
+  border: 0.25rem solid $gold;
+  text-align: center;
+  margin-top: 2%;
+  font-size: larger;
+  padding-top: initial;
+}
+
+#columns {
+  margin-top: 20%;
+}
+
+.column1 {
+  @extend %column;
+  height: 5rem;
+}
+
+.column2 {
+  @extend %column;
+  height: 3rem;
+}
+
+%part {
+  margin: auto;
+}
+
+.part1 {
+  @extend %part;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.part2 {
+  @extend %part;
+}
+
+.part3 {
+  @extend %part;
+}

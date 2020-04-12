@@ -1,0 +1,25 @@
+table {
+  margin-top: 5rem;
+  background-color: #333;
+}
+table thead {
+  background-color: #333;
+}
+table thead tr th {
+  color: #ffca24;
+}
+table tbody tr .joy {
+  font-weight: 900;
+  font-size: larger;
+}
+table tbody tr th {
+  color: #ffca24;
+  font-weight: 900;
+  font-size: larger;
+}
+table tbody tr td {
+  color: #ffca24;
+  padding: 1rem !important;
+}
+
+/*# sourceMappingURL=style.css.map */

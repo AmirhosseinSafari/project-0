@@ -1,0 +1,33 @@
+$white: #fff;
+$gold: #ffca24;
+$dark-gray: #333;
+
+table {
+  margin-top: 5rem;
+  background-color: $dark-gray;
+  thead {
+    background-color: $dark-gray;
+    tr {
+      th {
+        color: $gold;
+      }
+    }
+  }
+  tbody {
+    tr {
+      .joy {
+        font-weight: 900;
+        font-size: larger;
+      }
+      th {
+        color: $gold;
+        font-weight: 900;
+        font-size: larger;
+      }
+      td {
+        color: $gold;
+        padding: 1rem !important;
+      }
+    }
+  }
+}
