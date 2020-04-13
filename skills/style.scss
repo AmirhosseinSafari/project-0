@@ -1,14 +1,18 @@
+$gold: #ffca24;
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-$gold: #ffca24;
-.holder1 {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin: auto;
-  border-radius: 5px;
-  box-shadow: 0px 0px 25px $gold;
+
+.mymain {
+}
+
+.holder {
+  margin: 0 16rem !important;
+}
+
+.nav-holder {
+  margin: 0 auto;
 }
 
 div ~ p {
@@ -16,10 +20,15 @@ div ~ p {
   font-weight: bold;
 }
 
-img {
-  border-radius: 5px;
+.footer {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.card {
-  background-color: rgb(46, 44, 44);
+a:hover {
+  text-decoration: none;
+  border: solid $gold 2px;
+  border-left: none;
+  border-right: none;
 }

@@ -19,15 +19,6 @@ header {
   width: 50%;
 }
 
-/* Custom default button 
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; Prevent inheritance from `body` 
-  background-color: #fff;
-  border: 0.05rem solid #fff;
-}*/
 /*
  * Base structure
  */
@@ -131,6 +122,19 @@ main {
  */
 .mastfoot {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  border: solid #ffca24 2px;
+  border-left: none;
+  border-right: none;
 }
 
 /*# sourceMappingURL=style.css.map */

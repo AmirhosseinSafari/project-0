@@ -31,3 +31,21 @@ table {
     }
   }
 }
+
+.footer {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  border: solid $gold 2px;
+  border-left: none;
+  border-right: none;
+}
+
+#second-table {
+  margin-top: 1rem !important;
+  margin-bottom: 5rem;
+}

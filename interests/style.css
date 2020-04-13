@@ -22,4 +22,22 @@ table tbody tr td {
   padding: 1rem !important;
 }
 
+.footer {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  border: solid #ffca24 2px;
+  border-left: none;
+  border-right: none;
+}
+
+#second-table {
+  margin-top: 1rem !important;
+  margin-bottom: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

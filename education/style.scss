@@ -45,3 +45,23 @@ $dark-gray: #333;
 .part3 {
   @extend %part;
 }
+
+footer {
+  margin-top: auto !important;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+  border: solid $gold 2px;
+  border-left: none;
+  border-right: none;
+}
+
+.main-part-footer {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
