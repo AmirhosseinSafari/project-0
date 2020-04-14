@@ -89,6 +89,12 @@ body {
   text-decoration: none !important;
 }
 
+.signture:hover {
+  border-bottom: none !important;
+  border-top: none !important;
+  color: #ffca24;
+}
+
 /*
  * Cover
  */

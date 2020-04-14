@@ -91,6 +91,12 @@ body {
   padding: 0.5rem 1rem;
   text-decoration: none !important;
 }
+
+.signture:hover {
+  border-bottom: none !important;
+  border-top: none !important;
+  color: $gold;
+}
 /*
  * Cover
  */
